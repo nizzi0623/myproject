@@ -16,7 +16,7 @@ public class CarTester {
 		cars[2] = new Car("TOYOTA", "WISH", 2000);
 		System.out.println(cars[0].name);
 		int i = 0;
-		for (int i=0; i<3; i++){
+		for (i=0; i<3; i++){
 			System.out.println(cars[i].name);
 			
 		}
@@ -26,11 +26,7 @@ public class CarTester {
 		}
 		System.out.println(i);
 
-		Class AA{
-			
-		}
-		AA a = new AA();
-		
+	
 		
 	}
 
