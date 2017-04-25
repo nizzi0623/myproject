@@ -10,6 +10,11 @@ public class Car {
 	float milage;
 	//Fields
 	
+	public Car(String brand, String name){
+		this(brand, name, 0);
+		System.out.println("haha");
+	}
+	
 	public Car(String brand, String name, int cc){
 		this.brand = brand;
 		this.name = name;
