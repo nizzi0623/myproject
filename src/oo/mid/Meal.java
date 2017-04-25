@@ -14,6 +14,7 @@ public class Meal {
 		this.dollar = dollar;
 	}
 	
+	
 	public void setDollar(int a){
 		dollar = a;
 	}
