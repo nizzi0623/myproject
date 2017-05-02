@@ -1,11 +1,8 @@
 package oo.stati;
 
-public class GraduateStudent {
+public class GraduateStudent extends Student {
 	int thesis;
+	public GraduateStudent(int english, int math, int chinese){
 	
-
-}
-public void print(){
-	System.out.println(getScore(english)+"\t"+getScore(math)+"\t"+getScore(chinese));
-	
+	}
 }
