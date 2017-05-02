@@ -1,12 +1,15 @@
 package oo.stati;
 
-public class Student {
+class Student {
 	//屬性(Fields, Instance Viarable 實例變數)
 	int english;
 	int math;
 	int chinese;
 	static int pass = 60;
 	//static類別變數，應用上用得到才用
+	Student(){
+		//拿掉public protected只能在這個package使用
+	}
 	static{
 		System.out.println("STATIC!!!");
 		//System.out.println(english);
