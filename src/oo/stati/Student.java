@@ -7,9 +7,10 @@ class Student {
 	int chinese;
 	static int pass = 60;
 	//static類別變數，應用上用得到才用
-	Student(){
-		//拿掉public protected只能在這個package使用
+	public Student(){
+		
 	}
+	
 	static{
 		System.out.println("STATIC!!!");
 		//System.out.println(english);
@@ -36,6 +37,12 @@ class Student {
 		}else{
 			return String.valueOf(score);
 		}
+	}
+	public String toString(){
+		return
+				"eng:"+english+"\n"+
+				"chinese:"+chinese+"\n"+
+				"math:"+math;
 	}
 
 }

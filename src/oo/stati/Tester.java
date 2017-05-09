@@ -29,10 +29,8 @@ public class Tester {
 			Student stu = list.get(i);
 			stu.print();
 		}
-
-
-		
-
+		Student stu = new Student();
+		System.out.println(stu);
 	}
 
 }
